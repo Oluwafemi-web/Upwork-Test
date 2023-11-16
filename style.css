@@ -1,6 +1,6 @@
 body {
   background-color: #4a4a4a;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .wrapper .wrapper-inner {
@@ -2299,10 +2299,10 @@ body {
 .vertical-center {
   margin: 0;
   position: absolute;
-  top: 15%;
+  top: 10%;
   /* transform: translateY(-50%); */
   max-height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /* } */
 
@@ -2503,4 +2503,46 @@ body {
 .product img {
   width: 45px;
   height: 45px;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .vertical-center {
+    width: 70vw;
+    top: 5%;
+    left: 18%;
+  }
+  .product-button button {
+    font-size: 8px;
+    width: 158px;
+    padding: 2px;
+    margin-left: 10px;
+  }
+  .contact-and-share-button a {
+    font-size: 8px;
+    width: 52px;
+  }
+  .product {
+    left: 41%;
+    top: 5%;
+  }
+  .isolation-chamber-names,
+  .isolation-chamber-name {
+    padding: 2px 6px !important;
+  }
+  .main-altitude
+    .main-altitude-inner
+    .main-altitude-block
+    .main-altitude-block-inn
+    .main-altitude-icon
+    button
+    img,
+  .product img {
+    width: 35px;
+    height: 35px;
+  }
 }
