@@ -1,5 +1,6 @@
 body {
   background-color: #4a4a4a;
+  overflow: hidden;
 }
 
 .wrapper .wrapper-inner {
@@ -2298,8 +2299,8 @@ body {
 .vertical-center {
   margin: 0;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 15%;
+  /* transform: translateY(-50%); */
   max-height: 100vh;
   overflow: hidden;
 }
