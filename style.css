@@ -597,7 +597,7 @@ body {
   padding: 40px 20px 20px;
   border-radius: 20px;
   position: absolute;
-  top: 18%;
+  top: 16%;
   background: #ffffffd4;
   left: 28%;
   z-index: 2;
@@ -2299,7 +2299,7 @@ body {
 .vertical-center {
   margin: 0;
   position: absolute;
-  top: 10%;
+  top: 5%;
   /* transform: translateY(-50%); */
   max-height: 100vh;
   /* overflow: hidden; */
@@ -2512,9 +2512,9 @@ body {
 }
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .vertical-center {
-    width: 70vw;
+    width: 80vw;
     top: 5%;
-    left: 18%;
+    left: 10%;
   }
   .product-button button {
     font-size: 8px;
@@ -2544,5 +2544,19 @@ body {
   .product img {
     width: 35px;
     height: 35px;
+  }
+  body .atitude-product {
+    bottom: 37px !important;
+  }
+  body .contact-and-share-button {
+    bottom: 59px !important;
+  }
+}
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  body .vertical-center {
+    width: 200vw;
+  }
+  body .atitude-product {
+    bottom: -12px !important;
   }
 }
