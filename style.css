@@ -2554,7 +2554,7 @@ body {
 }
 @media screen and (max-width: 768px) and (orientation: portrait) {
   body .vertical-center {
-    width: 200vw;
+    width: 200vw !important;
   }
   body .atitude-product {
     bottom: -12px !important;
